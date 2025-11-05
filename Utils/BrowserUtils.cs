@@ -28,17 +28,32 @@ namespace FinalSurgeTests.Utils
         //    return driver;
         //}
 
+        //private static IWebDriver Init()
+        //{
+        //    var options = new ChromeOptions();            
+        //    options.AddUserProfilePreference("disable-popup-blocking", true);
+        //    options.AddArguments(
+        //        "--headless=new",       
+        //        "--no-sandbox",         
+        //        "--disable-dev-shm-usage",
+        //        "--disable-gpu",
+        //        "--window-size=1920,1080");
+        //    return new ChromeDriver(options);
+        //}
+
         private static IWebDriver Init()
         {
-            var options = new ChromeOptions();            
+            var options = new ChromeOptions();
             options.AddUserProfilePreference("disable-popup-blocking", true);
             options.AddArguments(
-                "--headless=new",       
-                "--no-sandbox",         
+                "--headless=new",
+                "--no-sandbox",
                 "--disable-dev-shm-usage",
                 "--disable-gpu",
                 "--window-size=1920,1080");
-            return new ChromeDriver(options);
+            var driver = new ChromeDriver(options);
+            driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10);
+            return driver;
         }
 
         public static void OpenPage(string url)
