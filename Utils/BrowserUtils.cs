@@ -26,20 +26,7 @@ namespace FinalSurgeTests.Utils
         //    var driver = new ChromeDriver(options);            
         //    driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10);
         //    return driver;
-        //}
-
-        //private static IWebDriver Init()
-        //{
-        //    var options = new ChromeOptions();            
-        //    options.AddUserProfilePreference("disable-popup-blocking", true);
-        //    options.AddArguments(
-        //        "--headless=new",       
-        //        "--no-sandbox",         
-        //        "--disable-dev-shm-usage",
-        //        "--disable-gpu",
-        //        "--window-size=1920,1080");
-        //    return new ChromeDriver(options);
-        //}
+        //}        
 
         private static IWebDriver Init()
         {

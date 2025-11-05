@@ -12,8 +12,8 @@ namespace FinalSurgeTests.Tests.OldUser
 
         [Test]
         [Category("All_users")]
-        [Category("Tests_for_previously_registered user")]
-        [AllureTag("Tests_for_previously_registered user")]
+        [Category("Tests_for_previously_registered_user")]
+        [AllureTag("Tests_for_previously_registered_user")]
         [AllureSuite("Checking if a registered user has previously created workouts")]
         public void CheckingPreviouslyCreatedWorkouts()
         {               

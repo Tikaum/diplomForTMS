@@ -22,8 +22,8 @@ namespace FinalSurgeTests.Tests.OldUser
 
         [Test]        
         [Category("All_users")]
-        [Category("Tests_for_previously_registered user")]
-        [AllureTag("Tests_for_previously_registered user")]
+        [Category("Tests_for_previously_registered_user")]
+        [AllureTag("Tests_for_previously_registered_user")]
         [AllureSuite("Testing the calorie calculator for users with different parameters (weight, height, age, running distance)")]
         [TestCaseSource(typeof(CsvDataOfAthlets), nameof(CsvDataOfAthlets.GetTestCases))]
         public void CheckingExpectedCaloriesForAthlets(string weight, string height, string age, string runDistance, string expectedTotalCalories)
