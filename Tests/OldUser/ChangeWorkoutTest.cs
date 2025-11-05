@@ -14,7 +14,9 @@ namespace FinalSurgeTests.Tests.OldUser
         ChangeWorkoutPage changeWorkoutPage = new ChangeWorkoutPage();        
 
         [Test]
+        [Category("All users")]
         [Category("Tests for previously registered user")]
+        [AllureTag("Tests for previously registered user")]
         [AllureSuite("Editing a previously created workout")]
         public void CheckingSuccessChangeWorkout()
         {                        

@@ -10,7 +10,9 @@ namespace FinalSurgeTests.Tests.OldUser
         DashboardPage dashboardPage = new DashboardPage();        
 
         [Test]
+        [Category("All users")]
         [Category("Tests for previously registered user")]
+        [AllureTag("Tests for previously registered user")]
         [AllureSuite("Checking the authorization of a previously registered user")]
         public void EnteringLoginUser()
         {               

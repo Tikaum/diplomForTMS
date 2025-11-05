@@ -7,8 +7,8 @@ pipeline {
             description: 'Select user type',
             choices: [
                 'All users',
-                'New user',
-                'Previously registered user'
+                'Tests for new user',
+                'Tests for previously registered user'
             ]
         )
     }

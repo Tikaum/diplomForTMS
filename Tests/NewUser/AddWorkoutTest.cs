@@ -14,7 +14,9 @@ namespace FinalSurgeTests.Tests.NewUser
         WorkoutDetailsPage workoutDetailsPage = new WorkoutDetailsPage();
 
         [Test]
+        [Category("All users")]
         [Category("Tests for new user")]
+        [AllureTag("Tests for new user")]
         [AllureSuite("Adding a new workout with a specified name, start time, activity type, and description")]
         public void CheckingAddingWorkout()
         {

@@ -11,7 +11,9 @@ namespace FinalSurgeTests.Tests.NewUser
         DashboardPage dashboardPage = new();
 
         [Test]
+        [Category("All users")]
         [Category("Tests for new user")]
+        [AllureTag("Tests for new user")]
         [AllureSuite("Checking new user registration")]
         public void RegistrationNewUser()
         {

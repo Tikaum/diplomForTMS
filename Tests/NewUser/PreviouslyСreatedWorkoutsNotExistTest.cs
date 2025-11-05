@@ -11,7 +11,9 @@ namespace FinalSurgeTests.Tests.NewUser
         DashboardPage dashboardPage = new DashboardPage();
 
         [Test]
+        [Category("All users")]
         [Category("Tests for new user")]
+        [AllureTag("Tests for new user")]
         [AllureSuite("Checking for the absence of previously created future and past trainings")]
         public void CheckingPreviouslyCreatedWorkouts()
         {
