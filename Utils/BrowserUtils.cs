@@ -19,6 +19,7 @@ namespace FinalSurgeTests.Utils
             }
         }
 
+        // код для ручного запуска
         //private static IWebDriver Init()
         //{
         //    var options = new ChromeOptions();
@@ -28,6 +29,7 @@ namespace FinalSurgeTests.Utils
         //    return driver;
         //}        
 
+        // код для запуска на Дженкинсе
         private static IWebDriver Init()
         {
             var options = new ChromeOptions();
