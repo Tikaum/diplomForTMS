@@ -1,16 +1,8 @@
 pipeline {
     agent any
-	
+		
 	parameters {
-        choice(
-            name: 'USER_TYPE',
-            description: 'Select user type',
-            choices: [
-                'All users',
-                'Tests for new user',
-                'Tests for previously registered user'
-            ]
-        )
+        string(name: 'TEST_CATEGORY', defaultValue: 'All_users', description: 'Run test with category')
     }
 
     environment {

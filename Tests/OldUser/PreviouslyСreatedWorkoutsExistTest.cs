@@ -11,9 +11,9 @@ namespace FinalSurgeTests.Tests.OldUser
         DashboardPage dashboardPage = new DashboardPage();
 
         [Test]
-        [Category("All users")]
-        [Category("Tests for previously registered user")]
-        [AllureTag("Tests for previously registered user")]
+        [Category("All_users")]
+        [Category("Tests_for_previously_registered user")]
+        [AllureTag("Tests_for_previously_registered user")]
         [AllureSuite("Checking if a registered user has previously created workouts")]
         public void CheckingPreviouslyCreatedWorkouts()
         {               

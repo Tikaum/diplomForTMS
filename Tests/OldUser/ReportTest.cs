@@ -11,9 +11,9 @@ namespace FinalSurgeTests.Tests.OldUser
         ReportPage reportPage = new ReportPage();
 
         [Test]
-        [Category("All users")]
-        [Category("Tests for previously registered user")]
-        [AllureTag("Tests for previously registered user")]
+        [Category("All_users")]
+        [Category("Tests_for_previously_registered user")]
+        [AllureTag("Tests_for_previously_registered user")]
         [AllureSuite("Checking the display of the training report, with grouping of previously created trainings by default and by training type")]
         public void CheckingReportOfWorkout()
         {               

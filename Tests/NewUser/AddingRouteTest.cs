@@ -13,9 +13,9 @@ namespace FinalSurgeTests.Tests.NewUser
         RoutePage routePage = new RoutePage();
 
         [Test]
-        [Category("All users")]
-        [Category("Tests for new user")]        
-        [AllureTag("Tests for new user")]
+        [Category("All_users")]
+        [Category("Tests_for_new_user")]        
+        [AllureTag("Tests_for_new_user")]
         [AllureSuite("Adding a route with a specified name, activity type, and distance")]
         public void CheckingSuccessAddingRoute()
         {
